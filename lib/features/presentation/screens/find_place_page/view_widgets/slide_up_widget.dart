@@ -20,9 +20,6 @@ class SlideUpWidget extends GetView<FindPlaceModel> {
       maxHeight: Sizes.appbarMaxHeight,
       minHeight: Get.height * .13,
       defaultPanelState: PanelState.OPEN,
-      onPanelClosed: () {
-        Get.to(const HomePage());
-      },
       borderRadius: BorderRadius.only(
         topLeft: Radius.circular(Sizes.appbarRadius / 2),
         topRight: Radius.circular(Sizes.appbarRadius / 2),
@@ -31,7 +28,7 @@ class SlideUpWidget extends GetView<FindPlaceModel> {
       backdropColor: Colors.transparent,
       slideDirection: SlideDirection.UP,
       boxShadow: const [],
-      panel: BottomBarWid(),
+      panel: const BottomBarWid(),
       body: SizedBox(
         height: Sizes.kHeight,
         width: Sizes.kWidth,
