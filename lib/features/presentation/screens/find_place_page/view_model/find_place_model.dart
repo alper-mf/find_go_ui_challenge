@@ -18,4 +18,12 @@ class FindPlaceModel extends GetxController {
 
   List<CheckBoxListTileModel> checkBoxListTileModel =
       CheckBoxListTileModel.getUsers();
+
+  var ratings = [
+    'assets/stars/filled_star.svg',
+    'assets/stars/filled_star.svg',
+    'assets/stars/filled_star.svg',
+    'assets/stars/filled_star.svg',
+    'assets/stars/empty_star.svg',
+  ];
 }
