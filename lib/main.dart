@@ -22,7 +22,7 @@ void main() async {
   ).then(
     (_) async {
       runApp(GetMaterialApp(
-        debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: true,
         home: const WelcomePage(),
         theme: ThemeData(),
       ));
