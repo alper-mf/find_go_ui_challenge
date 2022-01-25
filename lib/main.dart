@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   InitializeServices().dependencies();
-  //Appbar eklendi
+  //Appbar eklendi ama belki düzeltilebilir
   //Status Bar Color And Set Device Orientations
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
